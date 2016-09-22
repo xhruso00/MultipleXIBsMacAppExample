@@ -1,10 +1,10 @@
-#import "PPViewController.h"
+#import "MyViewController.h"
 
-@interface PPViewController ()
+@interface MyViewController ()
 
 @end
 
-@implementation PPViewController
+@implementation MyViewController
 
 - (void)awakeFromNib
 {

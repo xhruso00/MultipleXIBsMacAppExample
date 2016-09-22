@@ -1,14 +1,6 @@
-//
-//  BadgeView.m
-//  badge
-//
-//  Created by Marek Hrusovsky on 9/21/16.
-//  Copyright © 2016 Marek Hrusovsky. All rights reserved.
-//
+#import "PPBadgeView.h"
 
-#import "BadgeView.h"
-
-@implementation BadgeView
+@implementation PPBadgeView
 
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];

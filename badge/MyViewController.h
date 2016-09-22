@@ -1,6 +1,6 @@
 #import <Cocoa/Cocoa.h>
 
-@interface PPViewController : NSViewController
+@interface MyViewController : NSViewController
 
 @property(strong) IBOutlet NSView *viewToSubstitute;
 
