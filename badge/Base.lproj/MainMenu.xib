@@ -18,6 +18,11 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <viewController nibName="BadgeView" id="5Qb-TD-TSQ" customClass="BadgeViewController">
+            <connections>
+                <outlet property="viewToSubstitute" destination="9TM-bw-fuT" id="rPJ-3j-NrZ"/>
+            </connections>
+        </viewController>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="badge" id="1Xt-HY-uBw">
@@ -690,17 +695,12 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9TM-bw-fuT">
-                        <rect key="frame" x="136" y="83" width="255" height="173"/>
+                        <rect key="frame" x="113" y="93" width="255" height="173"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>
                 </subviews>
             </view>
             <point key="canvasLocation" x="51" y="198"/>
         </window>
-        <viewController nibName="BadgeView" id="ZHg-su-DIH" customClass="MyViewController">
-            <connections>
-                <outlet property="viewToSubstitute" destination="9TM-bw-fuT" id="4sv-gf-XKo"/>
-            </connections>
-        </viewController>
     </objects>
 </document>

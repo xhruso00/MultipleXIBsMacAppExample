@@ -11,8 +11,9 @@
 		D2A640AE1D92B9800089F951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A640AD1D92B9800089F951 /* main.m */; };
 		D2A640B01D92B9800089F951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A640AF1D92B9800089F951 /* Assets.xcassets */; };
 		D2A640B31D92B9800089F951 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A640B11D92B9800089F951 /* MainMenu.xib */; };
-		D2DBB1951D92C9E200376016 /* BadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DBB1941D92C9E200376016 /* BadgeView.xib */; };
 		D2DBB19E1D92CAC500376016 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DBB19D1D92CAC500376016 /* MyViewController.m */; };
+		D2DBB1A21D93E1BC00376016 /* BadgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DBB1A01D93E1BC00376016 /* BadgeViewController.m */; };
+		D2DBB1A31D93E1BC00376016 /* BadgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DBB1A11D93E1BC00376016 /* BadgeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,11 @@
 		D2A640AF1D92B9800089F951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A640B21D92B9800089F951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D2A640B41D92B9800089F951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2DBB1941D92C9E200376016 /* BadgeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadgeView.xib; sourceTree = "<group>"; };
 		D2DBB19C1D92CAC500376016 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		D2DBB19D1D92CAC500376016 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		D2DBB19F1D93E1BC00376016 /* BadgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeViewController.h; sourceTree = "<group>"; };
+		D2DBB1A01D93E1BC00376016 /* BadgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeViewController.m; sourceTree = "<group>"; };
+		D2DBB1A11D93E1BC00376016 /* BadgeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BadgeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +65,11 @@
 				D2A640AA1D92B9800089F951 /* AppDelegate.m */,
 				D2DBB19C1D92CAC500376016 /* MyViewController.h */,
 				D2DBB19D1D92CAC500376016 /* MyViewController.m */,
+				D2DBB19F1D93E1BC00376016 /* BadgeViewController.h */,
+				D2DBB1A01D93E1BC00376016 /* BadgeViewController.m */,
+				D2DBB1A11D93E1BC00376016 /* BadgeView.xib */,
 				D2A640AF1D92B9800089F951 /* Assets.xcassets */,
 				D2A640B11D92B9800089F951 /* MainMenu.xib */,
-				D2DBB1941D92C9E200376016 /* BadgeView.xib */,
 				D2A640B41D92B9800089F951 /* Info.plist */,
 				D2A640AC1D92B9800089F951 /* Supporting Files */,
 			);
@@ -138,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2A640B01D92B9800089F951 /* Assets.xcassets in Resources */,
-				D2DBB1951D92C9E200376016 /* BadgeView.xib in Resources */,
+				D2DBB1A31D93E1BC00376016 /* BadgeView.xib in Resources */,
 				D2A640B31D92B9800089F951 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +157,7 @@
 			files = (
 				D2DBB19E1D92CAC500376016 /* MyViewController.m in Sources */,
 				D2A640AE1D92B9800089F951 /* main.m in Sources */,
+				D2DBB1A21D93E1BC00376016 /* BadgeViewController.m in Sources */,
 				D2A640AB1D92B9800089F951 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
